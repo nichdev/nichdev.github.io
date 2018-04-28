@@ -1,0 +1,50 @@
+/* ----------- Typography --------- */
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+/* ----------- style ------------- */
+
+
+.heading {
+  text-align: center;
+  height: 100vh;
+}
+
+.heading > h1 {
+  margin-top: 35vh;
+}
+
+.weight {
+  font-weight: 800;
+}
+
+.icon-size {
+  font-size: 30px;
+  padding: 5px;
+}
