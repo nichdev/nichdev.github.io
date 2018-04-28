@@ -41,10 +41,23 @@ html {
 }
 
 .weight {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .icon-size {
   font-size: 30px;
   padding: 5px;
+}
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* Particle container. */
+#particle-container {
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
 }
